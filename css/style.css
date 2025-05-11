@@ -38,6 +38,8 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #8291a5;
+  font-size: 20px;
+  font-weight: bold;
   padding: 8px 30px;
   border-radius: 7px;
   transition: all 0.3s ease;
@@ -76,121 +78,11 @@ ul li a.active {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  nav {
-    border-bottom: 1px solid #455468;
-  }
-
-  ul {
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 71px);
-    background-color: #2a4641;
-    left: 0;
-    top: 0;
-    text-align: center;
-    display: none;
-    margin-top: 91px;
-  }
-
-  ul li {
-    display: block;
-    padding: 10px 15px;
-  }
-
-  ul li a {
-    display: block;
-    padding: 10px 0;
-  }
-
-  #icon {
-    display: block;
-  }
-
-  #checkbox:checked ~ ul {
-    display: block;
-  }
-}
-
-/*
-.principal {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background: #398376;
-  background: linear-gradient(
-    180deg,
-    rgba(57, 131, 118, 1) 60%,
-    rgba(253, 254, 255, 1) 98%
-  );
-  color: #727273;
-  height: auto;
-  margin: 0 auto;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  width: 80px;
-  margin: 10px;
-}
-
-.logo h1 {
-  font-size: 1em;
-  margin: 0;
-}
-
-.navbar {
-  display: flex;
-  background: #314c47;
-  background: radial-gradient(
-    circle,
-    rgba(49, 76, 71, 1) 0%,
-    rgba(164, 205, 187, 1) 50%,
-    rgba(252, 253, 255, 1) 100%
-  );
-  color: #727273;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  border-radius: 2px #ced2d5;
-  border-bottom: #ced2d5;
-  text-decoration: none;
-}
-
-.navbar ul {
-  margin: 1em 0 0.5em;
-  text-align: center;
-}
-
-.navbar ul li {
-  display: inline;
-}
-
-.navbar a.nav-link {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 10px 15px;
-  font-size: 1em;
-  font-weight: bold;
-  background: #83b1a4;
-  border: 1px solid #ced2d5;
-  color: #2c4944;
-  border-radius: 10px;
-  animation: efecto 1.2s infinite;
-  display: inline-block;
-}
-*/
-
 .main-content {
   background-image: url("../img/fondoBody2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: calc(100vh - 250px);
+  background-size: contain;
+  min-height: calc(100vh - 175px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,11 +91,23 @@ ul li a.active {
 footer {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: start;
   margin: 10px;
   padding: 10px;
   color: #727273;
-  border-top: 1px solid #ccc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8291a5;
+  padding: 8px 30px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+  background: #a0c9b7;
 }
 
 .whatsapp-button {
@@ -251,6 +155,44 @@ footer {
   }
   100% {
     box-shadow: 0 0 0 15px rgb(0, 0, 0, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    border-bottom: 1px solid #455468;
+  }
+
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #2a4641;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    margin-top: 91px;
+  }
+
+  ul li {
+    display: block;
+    padding: 10px 15px;
+  }
+
+  ul li a {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  #icon {
+    display: block;
+  }
+
+  #checkbox:checked ~ ul {
+    display: block;
   }
 }
 
