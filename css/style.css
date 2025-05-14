@@ -8,6 +8,12 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   color: #727273;
+  background-image: url("../img/fondoBody2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Opcional:  Ajustes adicionales para el texto si es necesario */
+  /* color: white;  */
+  /* font-size: 16px; */
 }
 
 nav {
@@ -79,13 +85,13 @@ ul li a.active {
 }
 
 .main-content {
-  background-image: url("../img/fondoBody2.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: calc(100vh - 175px);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  min-height: calc(100vh - 175px);
+  margin: 10px;
+  padding: 10px;
 }
 
 footer {
@@ -196,11 +202,125 @@ footer a:hover {
   }
 }
 
-/*
-@media screen and (min-width: 768px) {
-  
-  }
 @media screen and (min-width: 1200px) {
- 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    background: #2a4641;
   }
-*/
+
+  .logo {
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .logo img {
+    width: 75px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #8291a5;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+  }
+
+  ul li a:hover,
+  ul li a.active {
+    color: #fff;
+    background: #a0c9b7;
+  }
+
+  /*.main-content {
+    background-image: url("../img/fondoBody2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: calc(100vh - 175px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }*/
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+    padding: 10px;
+    color: #727273;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #8291a5;
+    padding: 8px 30px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    color: #fff;
+    background: #a0c9b7;
+  }
+
+  .whatsapp-button {
+    font-size: 15px;
+    color: #128c39;
+    bottom: 15px;
+    right: 15px;
+    padding: 15px;
+    position: fixed;
+    text-decoration: none;
+    transition: ease 1s;
+    z-index: 1000;
+  }
+
+  .whatsapp-button .whatsapp-chat-text {
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .whatsapp-button .fa-whatsapp {
+    color: #0df053;
+    font-size: 75px;
+    border-radius: 50%;
+    animation: efecto 1.2s infinite;
+  }
+
+  .whatsapp-button .fa-whatsapp:hover {
+    background-color: #0df053;
+    color: white;
+    border-radius: 50%;
+    transition: ease 0.5s;
+    transform: scale(1.1);
+    right: 25px;
+    padding: 10px;
+    z-index: 999;
+    animation: efecto 1.2s infinite;
+  }
+
+  @keyframes efecto {
+    0% {
+      box-shadow: 0 0 0 0 rgb(0, 0, 0, 1.5);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgb(0, 0, 0, 0);
+    }
+  }
+}

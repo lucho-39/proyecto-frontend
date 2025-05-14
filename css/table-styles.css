@@ -1,0 +1,105 @@
+/* responsive table styles !!!!!Fork from this part!!!!! */
+.card-table__mobile-title {
+  font-weight: 700;
+}
+
+@container tableContainer (min-width:992px) {
+  .card-table__mobile-title {
+    display: none;
+  }
+}
+
+@container tableContainer (max-width:991px) {
+  .card-table {
+    display: block;
+    border: none;
+
+    td,
+    tr {
+      display: block;
+      border: none;
+    }
+
+    thead {
+      display: none;
+    }
+
+    tbody {
+      display: flex;
+      width: 100%;
+      overflow-x: scroll;
+      gap: 20px;
+      scroll-snap-type: x proximity;
+      padding: 15px;
+      scroll-padding: 15px;
+      padding-bottom: 20px;
+    }
+
+    tr {
+      width: 250px;
+      flex-shrink: 0;
+      border: 1px solid black;
+      scroll-snap-align: start;
+    }
+  }
+}
+
+/* end of responsive table styles !!!!!Fork till this part!!!!! */
+
+@layer demo.support {
+  /* css reset */
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+  body {
+    box-sizing: border-box;
+    font-family: system-ui;
+    margin-block-start: 50px;
+  }
+
+  /* End of css reset */
+
+  /* container styles */
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+    container-type: inline-size;
+    container-name: tableContainer;
+
+    @media screen and (max-width: 991px) {
+      padding: 0;
+    }
+  }
+
+  /*End of container styles */
+
+  /* basic table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+    text-align: left;
+
+    td,
+    th {
+      padding: 10px;
+      /* adding space to all the cells */
+    }
+
+    td,
+    tr,
+    th {
+      border-collapse: collapse;
+      border: 1px solid;
+      text-align: left;
+    }
+  }
+
+  /*end of basic table styles */
+}
