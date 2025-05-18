@@ -29,7 +29,7 @@ nav {
 }
 
 .logo img {
-  width: 75px;
+  width: 50px;
 }
 
 ul {
@@ -370,12 +370,12 @@ footer a:hover {
   }
 
   .logo {
-    color: #fff;
+    color: #727273;
     font-size: 22px;
   }
 
   .logo img {
-    width: 75px;
+    width: 50px;
   }
 
   ul {
