@@ -203,8 +203,6 @@ footer a:hover {
   animation: efecto 1.2s infinite;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
 .wrapper {
   position: relative;
   width: 420px;
@@ -304,6 +302,8 @@ footer a:hover {
   text-decoration: underline;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
 @keyframes efecto {
   0% {
     box-shadow: 0 0 0 0 rgb(0, 0, 0, 1.5);
@@ -316,6 +316,8 @@ footer a:hover {
 @media screen and (max-width: 768px) {
   nav {
     border-bottom: 1px solid #727273;
+    position: relative;
+    z-index: 1001;
   }
 
   ul {
@@ -328,6 +330,7 @@ footer a:hover {
     text-align: center;
     display: none;
     margin-top: 91px;
+    z-index: 1002;
   }
 
   ul li {
@@ -344,10 +347,16 @@ footer a:hover {
 
   #icon {
     display: block;
+    z-index: 1003;
+    position: relative;
   }
 
   #checkbox:checked ~ ul {
     display: block;
+  }
+
+  main {
+    padding-top: 100px;
   }
 }
 
