@@ -84,11 +84,17 @@ ul li a.active {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   min-height: calc(100vh - 175px);
   margin: 10px;
   padding: 10px;
+}
+
+.pedidos-wrapper-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
 }
 
 .form {
