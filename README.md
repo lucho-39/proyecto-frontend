@@ -2,8 +2,13 @@
 
 Este es un proyecto para un curso de Programador Front End, prof: Claudio Paredes
 
-# Tecnologias usadas
+# el sitio se compone de:
+
+# temas y/o funcionalidades aplicadas:
+
+# despligue en ...
+
+# tecnologias usadas
 
 - HTML
 - CSS
-- Javascript
