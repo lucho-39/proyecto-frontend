@@ -48,7 +48,7 @@
 
 ## Demo
 
-![img](/img/punto-ferretero-icon.svghttps://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
+![(/img/punto-ferretero-icon.svg)](//https://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
 
 ## Authors
 
