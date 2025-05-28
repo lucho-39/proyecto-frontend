@@ -46,6 +46,10 @@
 
 **En resumen, el sitio web actúa como una herramienta de marketing digital que facilita la interacción con el cliente, ofreciendo información y permitiendo la compra online, todo ello con un enfoque en el objetivo de aumentar las ventas.**
 
+## Demo
+
+![img](/img/punto-ferretero-icon.svghttps://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
+
 ## Authors
 
 ![@octokatherine](https://github.com/lucho-39)
