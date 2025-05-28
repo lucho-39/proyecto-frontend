@@ -52,11 +52,9 @@
 
 ## 🔗 Links
 
-![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)
-(https://htmlpreview.github.io/?https://github.com/lucho-39/portfolio/blob/main/index.html)
+![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=whitehttps://htmlpreview.github.io/?https://github.com/lucho-39/portfolio/blob/main/index.html)
 
-![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
-(https://www.linkedin.com/in/luciano-santa-cruz-70aa40139/)
+![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=whitehttps://www.linkedin.com/in/luciano-santa-cruz-70aa40139/)
 
 ## Tech Stack
 
