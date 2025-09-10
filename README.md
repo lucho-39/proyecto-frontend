@@ -46,26 +46,26 @@
 
 **En resumen, el sitio web actúa como una herramienta de marketing digital que facilita la interacción con el cliente, ofreciendo información y permitiendo la compra online, todo ello con un enfoque en el objetivo de aumentar las ventas.**
 
-## Demo
+## 🚀 Demo
 
-[🚀 preview ](https://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
+[🚀 **preview** ](https://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
 
-## Authors
+## 📝 Authors
 
-[![(author)](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucho-39)
+[![(portfolio)](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://lucho-39.github.io/)
 
-## 🔗 Links
+## 👥 Social
 
-![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=whitehttps://htmlpreview.github.io/?https://github.com/lucho-39/portfolio/blob/main/index.html)
+[![(github)](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucho-39)
 
-![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=whitehttps://www.linkedin.com/in/luciano-santa-cruz-70aa40139/)
+[![(linkedin)](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luciano-santa-cruz/)
 
-## Tech Stack
+## 💻 Tech Stack
 
 - HTML
 - CSS
 
-## Screenshots
+## 📷 Screenshots
 
 ![App Screenshot](/img/captu/CapturaU.PNG)
 
