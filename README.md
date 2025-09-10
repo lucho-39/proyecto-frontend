@@ -48,11 +48,11 @@
 
 ## Demo
 
-![(/img/punto-ferretero-icon.svg)](//https://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
+[🚀 preview ](https://htmlpreview.github.io/?https://github.com/lucho-39/proyecto-frontend/blob/main/index.html)
 
 ## Authors
 
-![@octokatherine](https://github.com/lucho-39)
+[![(author)](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucho-39)
 
 ## 🔗 Links
 
