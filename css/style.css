@@ -10,12 +10,12 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   color: #727273;
-  background: url("../img/fondoBody2.jpg") no-repeat;
+  background: url("../img/fondoBody.svg") no-repeat;
   background-size: cover;
 }
 
 main {
-  min-height: calc(100vh - 175px);
+  min-height: calc(125vh - 175px);
   margin: 10px;
   padding: 10px;
 }
